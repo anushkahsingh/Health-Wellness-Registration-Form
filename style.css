@@ -1,0 +1,77 @@
+body{
+    height:100%;
+    width:100%;
+    background-image: url(./pics/bg1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+#bg2{
+    background-image: url(./pics/bg2.jpg);
+}
+
+.navbar{
+    background-color: #2C2C2C !important;
+}
+
+.nav-content{
+    justify-content: center !important;
+    font-size: 30px;
+    color:white !important;
+}
+
+.nav-content h1{
+    color:white !important;
+}
+
+.nav-heading{
+    font-size: 30px;
+}
+
+.main{
+	width:60%;
+    height: auto;
+	background: transparent;
+	padding-top:20px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right: auto;
+	box-shadow: 0px 25px 50px rgba(0,0,0,0.2);
+	backdrop-filter:blur(10px);
+	color: White;
+	display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+	padding-bottom: 20px;
+    font-family: "Poppins", serif;
+	z-index: 5;
+    /* font-weight: 90; */
+    
+}
+
+#font2{
+    color:black;
+}
+
+.info-feilds{
+    width: 80%;
+}
+
+.glass-head{
+    text-align: center;
+}
+
+.textarea-transparent{
+    background-color: transparent;
+}
+.textarea-transparent:focus{
+    background-color: transparent;
+}
+
+.form-check-input:checked{
+    background-color: black;
+    border-color: black;
+}
+
